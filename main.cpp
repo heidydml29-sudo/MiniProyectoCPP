@@ -68,3 +68,15 @@ void registrar() {
         cout << "Limite alcanzado\n";
     }
 }
+// Funcion para mostrar estudiantes
+void mostrar() {
+
+    if (cantidad == 0) {
+        cout << "No hay datos\n";
+        return;
+    }
+
+    for (int i = 0; i < cantidad; i++) {
+        cout << i+1 << ". " << nombres[i] << " - " << notas[i] << endl;
+    }
+}
