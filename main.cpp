@@ -43,3 +43,28 @@ int main() {
 
     return 0;
 }
+// Funcion para registrar estudiantes
+void registrar() {
+
+    // Verifica que no se pase del limite
+    if (cantidad < 50) {
+
+        cout << "Ingrese nombre: ";
+        cin >> nombres[cantidad];
+
+        cout << "Ingrese nota (0-10): ";
+        cin >> notas[cantidad];
+
+        // Validacion basica
+        if (notas[cantidad] < 0 || notas[cantidad] > 10) {
+            cout << "Nota invalida\n";
+            return;
+        }
+
+        cantidad++; // aumenta contador
+        cout << "Estudiante registrado\n";
+
+    } else {
+        cout << "Limite alcanzado\n";
+    }
+}
