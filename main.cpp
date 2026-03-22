@@ -17,6 +17,7 @@ int cantidad = 0;
 void registrar();
 void mostrar();
 void promedio();
+void mayorNota();
 
 int main() {
     int opcion;
@@ -27,7 +28,8 @@ int main() {
         cout << "1. Registrar estudiante\n";
         cout << "2. Mostrar estudiantes\n";
         cout << "3. Calcular promedio\n";
-        cout << "4. Salir\n";
+        cout << "4. Mayor nota\n";
+        cout << "5. Salir\n";
         cout << "Seleccione: ";
         cin >> opcion;
 
@@ -35,7 +37,9 @@ int main() {
             case 1: registrar(); break;
             case 2: mostrar(); break;
             case 3: promedio(); break;
-            case 4: cout << "Saliendo...\n"; break;
+            case 4: mayorNota(); break;
+            case 5: cout << "Saliendo...\n"; break;
+
             default: cout << "Opcion invalida\n";
         }
 
@@ -97,4 +101,23 @@ void promedio() {
     float prom = suma / cantidad;
 
     cout << "El promedio es: " << prom << endl;
+}
+
+// Funcion para mostrar la mayor nota
+void mayorNota() {
+
+    if (cantidad == 0) {
+        cout << "No hay datos\n";
+        return;
+    }
+
+    float mayor = notas[0];
+
+    for (int i = 1; i < cantidad; i++) {
+        if (notas[i] > mayor) {
+            mayor = notas[i];
+        }
+    }
+
+    cout << "La mayor nota es: " << mayor << endl;
 }
