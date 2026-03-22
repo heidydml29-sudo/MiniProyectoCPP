@@ -80,3 +80,21 @@ void mostrar() {
         cout << i+1 << ". " << nombres[i] << " - " << notas[i] << endl;
     }
 }
+// Funcion para calcular promedio
+void promedio() {
+
+    if (cantidad == 0) {
+        cout << "No hay datos\n";
+        return;
+    }
+
+    float suma = 0;
+
+    for (int i = 0; i < cantidad; i++) {
+        suma += notas[i];
+    }
+
+    float prom = suma / cantidad;
+
+    cout << "El promedio es: " << prom << endl;
+}
