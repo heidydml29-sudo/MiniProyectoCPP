@@ -80,7 +80,7 @@ void registrar() {
 void mostrar() {
 
     if (cantidad == 0) {
-        cout << "No hay datos\n";
+        cout << "No hay estudiantes registrado\n";
         return;
     }
 
@@ -102,7 +102,7 @@ cout << i+1 << ") Nombre: " << nombres[i]
 void promedio() {
 
     if (cantidad == 0) {
-        cout << "No hay datos\n";
+        cout << "No hay estudiantes registrado\n";
         return;
     }
 
@@ -121,7 +121,7 @@ void promedio() {
 void mayorNota() {
 
     if (cantidad == 0) {
-        cout << "No hay datos\n";
+        cout << "No hay estudiantes registrado\n";
         return;
     }
 
