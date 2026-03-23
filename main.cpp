@@ -32,6 +32,10 @@ int main() {
         cout << "5. Salir\n";
         cout << "Seleccione: ";
         cin >> opcion;
+        if (opcion < 1 || opcion > 5) {
+        cout << "Opcion fuera de rango\n";
+        continue;
+}
 
         switch(opcion) {
             case 1: registrar(); break;
