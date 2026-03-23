@@ -43,7 +43,7 @@ int main() {
             default: cout << "Opcion invalida\n";
         }
 
-    } while(opcion != 4);
+    } while(opcion != 5);
 
     return 0;
 }
