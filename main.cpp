@@ -85,7 +85,17 @@ void mostrar() {
     }
 
     for (int i = 0; i < cantidad; i++) {
-       cout << i+1 << ") Nombre: " << nombres[i] << " | Nota: " << notas[i] << endl;
+       string estado;
+
+if (notas[i] >= 7) {
+    estado = "Aprobado";
+} else {
+    estado = "Reprobado";
+}
+
+cout << i+1 << ") Nombre: " << nombres[i] 
+     << " | Nota: " << notas[i] 
+     << " | Estado: " << estado << endl;
     }
 }
 // Funcion para calcular promedio
