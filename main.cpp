@@ -1,5 +1,5 @@
 /*
-Tema: MINI PROYECTO CURSO DE PROGRMACIÓN
+Tema: MINI PROYECTO CURSO DE PROGRAMACIÓN
 Autor: HEIDY MENDOZA 
 Fecha: 2024-06-17
 Enunciado: 
@@ -24,7 +24,7 @@ int main() {
 
     // Menu principal
     do {
-        cout << "\n--- MENU ---\n";
+        cout << "\n--- MENU PRINCIPAL ---\n";
         cout << "1. Registrar estudiante\n";
         cout << "2. Mostrar estudiantes\n";
         cout << "3. Calcular promedio\n";
