@@ -85,7 +85,7 @@ void mostrar() {
     }
 
     for (int i = 0; i < cantidad; i++) {
-        cout << i+1 << ". " << nombres[i] << " - " << notas[i] << endl;
+       cout << i+1 << ") Nombre: " << nombres[i] << " | Nota: " << notas[i] << endl;
     }
 }
 // Funcion para calcular promedio
