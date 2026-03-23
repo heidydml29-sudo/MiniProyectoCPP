@@ -19,14 +19,14 @@ El programa está organizado en funciones:
 
 ## Tecnologías usadas
 - Lenguaje: C++
-- Consola (sin interfaz gráfica)
+- Consola 
 
 ## Autor
-Heidy
+Heidy Mendoza
 
 ## Cómo ejecutar
 1. Compilar:
-   g++ main.cpp -o programa
+   g++ main.cpp - o programa
 
 2. Ejecutar:
    ./programa
