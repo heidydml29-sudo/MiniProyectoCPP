@@ -104,7 +104,7 @@ void promedio() {
 
     float prom = suma / cantidad;
 
-    cout << "El promedio es: " << prom << endl;
+    cout << "El promedio general de notas es: " << prom << endl;
 }
 
 // Funcion para mostrar la mayor nota
