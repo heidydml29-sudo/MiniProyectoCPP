@@ -70,7 +70,7 @@ void registrar() {
         }
 
         cantidad++; // aumenta contador
-        cout << "Estudiante registrado\n";
+        cout << "Estudiante registrado correctamente\n";
 
     } else {
         cout << "Limite alcanzado\n";
