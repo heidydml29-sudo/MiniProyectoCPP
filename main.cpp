@@ -2,7 +2,7 @@
 Tema: MINI PROYECTO CURSO DE PROGRAMACIÓN
 Autor: HEIDY MENDOZA 
 Fecha: 2024-06-17
-Enunciado: 
+Enunciado: Sistema de registro de estudiantes con cálculo de promedio 
 */
 
 #include <iostream>
